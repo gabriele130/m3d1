@@ -1,0 +1,44 @@
+div h1 {
+    color: goldenrod;
+}
+
+nav span {
+    color: rgb(47, 47, 255);
+}
+
+.font-weight-bold {
+    color: goldenrod;
+}
+
+.col-md-8.blog-main h3 + div {
+    background-color: lightgray;
+}
+
+p + hr {
+    background-color: red;
+}
+
+span:nth-child(2n+0) {
+    color: indianred;
+}
+
+.list-unstyled.mb-0 > li a {
+color: red;}
+
+h2 +p a {
+    color: green;
+}
+
+.blog-post li:nth-of-type(2) {
+    color: purple;
+}
+
+footer ~ a {
+    background-color: aqua;
+}
+
+.btn.btn-outline-secondary.disabled{
+    background-color: green;
+}
+
+p > a + a {color: green;}
